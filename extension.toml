@@ -1,0 +1,11 @@
+id = "ana"
+name = "Ana"
+description = "Ana support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Tibet Tornaci <oofdere@hey.com>"]
+repository = "https://github.com/oofdere/ana-zed"
+
+[grammars.ana]
+repository = "https://github.com/oofdere/tree-sitter-ana"
+rev = "cb7e9a38fbe484c27f7340de9035c687d1f6351d"

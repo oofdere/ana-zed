@@ -1,0 +1,4 @@
+name = "Ana"
+grammar = "ana"
+path_suffixes = ["ana"]
+line_comments = []
