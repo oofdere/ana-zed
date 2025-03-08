@@ -6,7 +6,7 @@
   name: (id) @type)
 
 ; References
-(ref) @type
+(ref) @variable.special
 
 ; Properties
 (property
@@ -17,22 +17,28 @@
 
 ; Functions
 (function
-  name :(id) @function)
+  name: (id) @function)
+(get) @function.method
+(post) @function.method
 
 ; Keywords
-"record" @keyword.type
+"record" @keyword.storage
 "get" @keyword.function
 "post" @keyword.function
 
 ; Operators
 "->" @operator
 "|" @operator
+"=" @operator
+".." @operator
 
 ; Punctuation
 ":" @punctuation.delimiter
 "?:" @punctuation.delimiter
 "," @punctuation.delimiter
 ";" @punctuation.delimiter
+
+; Brackets
 "{" @punctuation.bracket
 "}" @punctuation.bracket
 "(" @punctuation.bracket
